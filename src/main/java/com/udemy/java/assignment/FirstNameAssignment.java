@@ -13,7 +13,7 @@ public class FirstNameAssignment {
     public static void main(String[] args) throws IOException {
 
         // /home/qa/Downloads/udemy-java/first-names.txt
-        Path path = Paths.get("/home/qa/Downloads/udemy-java/first-names.txt");
+        Path path = Paths.get("C:\\pankaj\\doc\\first-names.txt");
         List<String> list = Files.readAllLines(path);
 
         // print the count of names which start with B
@@ -61,7 +61,7 @@ public class FirstNameAssignment {
         );
 
 
-        // find the name which has more number of chars
+        // find the name which has most number of chars
 
         System.out.println(
 
