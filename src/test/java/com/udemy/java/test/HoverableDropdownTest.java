@@ -25,7 +25,7 @@ public class HoverableDropdownTest {
 
     @Test(dataProvider = "linkProvider")
     public void dropdownTest(String path){
-        this.driver.get("https://www.bootply.com/render/6FC76YQ4Nh#");
+        this.driver.get("https://vins-udemy.s3.amazonaws.com/java/html/drop-down.html");
         String[] split = path.split("=>");
 
         Arrays.stream(split)
